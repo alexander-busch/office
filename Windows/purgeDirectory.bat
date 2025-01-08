@@ -1,0 +1,10 @@
+if exist libudf rmdir /s /q libudf
+if exist solution_ini rmdir /s /q solution_ini
+if exist solution_case rmdir /s /q solution_case
+if exist solution rmdir /s /q solution
+if exist case_2patch_init.cas del /s /q case_2patch_init.cas
+if exist case_2patch_init.dat del /s /q case_2patch_init.dat
+if exist case_init.cas del /s /q case_init.cas
+if exist case_init.dat del /s /q case_init.dat
+if exist case_solved.cas del /s /q case_solved.cas 
+if exist case_solved.dat del /s /q case_solved.dat

@@ -1,0 +1,1 @@
+shutdown.exe /m \\pc-czc124c1m5 /r /t 00
