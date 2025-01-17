@@ -1,0 +1,1 @@
+return await Zotero.DB.columnQueryAsync("SELECT path FROM itemAttachments WHERE linkMode=2 AND path NOT LIKE ? AND path NOT LIKE ?", ['attachments:%', 'storage:%'])
