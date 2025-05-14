@@ -16,7 +16,7 @@ Install-Module PnP.PowerShell
 # Connect to SharePoint
 Import-Module PnP.PowerShell
 Connect-PnPOnline -Url https://xxx/:w:/r/sites/yyy -UseWebLogin
-# Connect-PnPOnline -Url https://xxx/:w:/r/sites/yyy -Interactive  
+# Connect-PnPOnline -Url https://xxx/:w:/r/sites/yyy -Interactive
 
 # User that deleted the item(s)
 $email = 'alexander.busch@danfoss.com'
